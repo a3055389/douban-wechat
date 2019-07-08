@@ -1,0 +1,58 @@
+<view class="headimg">
+  <image bindtap="bangdan" src="../../image/1.jpg"></image>
+  <image bindtap="bangdan" src="../../image/2.jpg"></image>
+  <image bindtap="bangdan" src="../../image/3.jpg"></image>
+</view>
+
+<view bindtap="index" class="cont">
+  <image src="../../image/huayu.png"></image>
+  <view class="banner">
+    <view class="tex" wx:for="{{shuzu}}" wx:if="{{index<3}}">
+      <text>{{index+1}}.</text>
+      <text >{{item.title}}</text>
+      <text class="mark">{{item.rating.average}}</text>
+    </view>
+  </view>
+</view>
+
+<view bindtap="index" class="cont">
+  <image src="../../image/kehuan.png"></image>
+  <view class="banner">
+    <view class="tex" wx:for="{{shuzu}}" wx:if="{{index<3}}">
+      <text>{{index+1}}.</text>
+      <text >{{item.title}}</text>
+      <text class="mark">{{item.rating.average}}</text>
+    </view>
+  </view>
+</view>
+
+<view bindtap="index" class="cont">
+  <image src="../../image/lengmen.png"></image>
+  <view class="banner">
+    <view class="tex" wx:for="{{shuzu}}" wx:if="{{index<3}}">
+      <text>{{index+1}}.</text>
+      <text >{{item.title}}</text>
+      <text class="mark">{{item.rating.average}}</text>
+    </view>
+  </view>
+</view>
+
+<view bindtap="index" class="cont">
+  <image src="../../image/pingfen.png"></image>
+  <view class="banner">
+    <view class="tex" wx:for="{{shuzu}}" wx:if="{{index<3}}">
+      <text>{{index+1}}.</text>
+      <text >{{item.title}}</text>
+      <text class="mark">{{item.rating.average}}</text>
+    </view>
+  </view>
+</view>
+
+
+
+<!-- 底部导航 -->
+<!-- <van-tabbar active-color="#07c160" active="{{ active }}">
+  <van-tabbar-item icon="fire-o" bindtap="index">首页</van-tabbar-item>
+  <van-tabbar-item icon="tv-o" bindtap="bangdan">榜单</van-tabbar-item>
+  <van-tabbar-item icon="contact">我的</van-tabbar-item>
+</van-tabbar> -->

@@ -1,0 +1,44 @@
+.headimg{
+  width: 95%;
+  margin: 0 auto;
+}
+.headimg image{
+  width: 99%;
+  height: 260rpx;
+  margin: 22rpx auto;
+}
+.cont{
+ width: 95%;
+ margin: 20rpx auto;
+ display: flex;
+ flex-direction:row;
+ flex-wrap: nowrap;
+ align-items:center;
+}
+.cont image{
+  width: 200rpx;
+  height: 200rpx;
+}
+.banner{
+  height: 160rpx;
+  width: 70%;
+  border: 1px solid #ccc;
+  border-left: none;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  /* align-items: center; */
+}
+.tex{
+  margin-left: 50rpx;
+  padding: 4rpx 0;
+  font-size: 26rpx;
+}
+.tex text{
+  margin-left: 10rpx;
+}
+.mark{
+  font-size: 22rpx;
+  color: orange;
+}
+

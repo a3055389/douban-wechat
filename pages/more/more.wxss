@@ -1,0 +1,39 @@
+/* 影院热映 */
+.head{
+  margin: 15px 0;
+  font-size: 16px;
+  text-align: center;
+}
+/* 图片滑动 */
+.uploadWrap {
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 150rpx;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.upload_Item {
+  float: left;
+  width: 170rpx;
+  height: 330rpx;
+  /* line-height: 40rpx; */
+  text-align: center;
+  margin: 0 36rpx;
+ 
+}
+.upload_Item_img {
+  float: left;
+  width: 170rpx;
+  height: 250rpx;
+  border-radius: 10rpx;
+}
+.upload_Item text {
+  display: inline-block;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  width: 160rpx;
+  font-size: 26rpx; 
+}

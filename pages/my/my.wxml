@@ -1,0 +1,67 @@
+<!--pages/my/my.wxml-->
+<view class="head">
+  <image src="../../image/wodebeijing.png"></image>
+  <button type="default">登陆</button>
+</view>
+<!-- banner下部文字 -->
+<view class="cont">
+  <view class="cont-t">
+    <text class="cont-t-l">我的书影音</text>
+    <text class="cont-t-r">登陆查看 ></text>
+  </view>
+
+<!-- 中间内容部分 -->
+  <view bindtap="guanying" class="cont-b">
+    <view class="contleft">
+      <image src="../../image/shipinzhuanti.png"></image>
+    </view>
+
+    <view class="cont-center">
+    <text>观影分析</text>
+    <text> 0 看过</text>
+    </view>
+
+    <view class="cont-center-two">
+    <text>标记10部影片开启观影分析</text>
+    </view>
+    <view class="cont-right">
+    <text class="cont-right-text">立即开启 ></text>
+    </view>
+  </view>
+<!-- 读书分析 -->
+   <view class="cont-b">
+    <view class="contleft">
+      <image src="../../image/shu2.png"></image>
+    </view>
+
+    <view class="cont-center">
+    <text>读书分析</text>
+    <text> 0 读过</text>
+    </view>
+
+    <view class="cont-center-two">
+    <text>标记10本书开启阅读分析</text>
+    </view>
+    <view class="cont-right">
+    <text class="cont-right-text">立即开启 ></text>
+    </view>
+  </view>
+<!-- 音乐分析 -->
+   <view class="cont-b">
+    <view class="contleft">
+      <image src="../../image/yinyue.png"></image>
+    </view>
+
+    <view class="cont-center">
+    <text>音乐分析</text>
+    <text> 0 听过</text>
+    </view>
+
+    <view class="cont-center-two">
+    <text>标记10张唱片开启音乐分析</text>
+    </view>
+    <view class="cont-right">
+    <text class="cont-right-text">立即开启 ></text>
+    </view>
+  </view>
+</view>

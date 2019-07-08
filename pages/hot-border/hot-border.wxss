@@ -1,0 +1,118 @@
+.top image {
+  width: 100%;
+  height: 400rpx;
+}
+
+.banner {
+  width: 95%;
+  margin: 20rpx auto;
+  height: 80rpx;
+}
+
+.banner-text-left {
+  float: left;
+  width: 114rpx;
+  height: 50rpx;
+  font-size: 28rpx;
+  border-bottom: 2px solid #ccc;
+}
+
+.banner-text-right {
+  font-size: 28rpx;
+  float: left;
+  color: #ccc;
+}
+
+.cont {
+  width: 95%;
+  margin: 40rpx auto;
+}
+
+.banner-right {
+  text-align: center;
+  height: 60rpx;
+  width: 220rpx;
+  float: right;
+  font-size: 26rpx;
+  background-color: orange;
+  border-radius: 30px;
+  line-height: 60rpx;
+  margin-right: 20rpx;
+}
+
+.cont-top {
+  text-align: center;
+  font-size: 26rpx;
+  width: 80rpx;
+  height: 42rpx;
+  background-color: orange;
+  border-radius: 5px;
+  line-height: 40rpx;
+  margin-bottom: 12rpx;
+}
+
+.cont-banner {
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.cont-banner image {
+  width: 200rpx;
+  height: 270rpx;
+  border-radius: 3px;
+}
+
+.cont-banner-center {
+  width: 300rpx;
+  margin: 0 30rpx;
+}
+
+.cont-banner-txt1 {
+  margin-top: 10rpx;
+  font-size: 36rpx;
+  font-weight: 500;
+}
+
+.pingfen {
+  margin-top: 18rpx;
+  display: flex;
+  flex-direction: row;
+  width: 200rpx;
+  font-size: 26rpx;
+}
+
+.jieshao {
+  margin-top: 18rpx;
+  font-size: 24rpx;
+}
+
+.congt-banner-right {
+  width: 155rpx;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  border-left: 1px dashed #ccc;
+  font-size: 30rpx;
+  color: #ffd21e;
+}
+.cont-banner-bottom{
+  padding-left: 20rpx;  
+  margin-top: 25rpx;
+  height: 50rpx;
+  /* background-color: #e0dede; */
+  background: rgb(196, 196,196,.2);
+  font-size: 28rpx;
+  line-height: 50rpx;
+  border-radius: 3px;
+  color: #ccc;
+}
+.fengexian{
+  margin-top: 60rpx;
+  height: 15rpx;
+  background-color: #ccc;
+}
+
+

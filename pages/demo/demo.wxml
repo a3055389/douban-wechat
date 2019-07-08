@@ -1,0 +1,80 @@
+<!--pages/demo/demo.wxml-->
+<!-- <text>{{meg}}</text> -->
+
+<!-- <view wx:for="{{arr}}" wx:key="{{arr}}">{{item}}</view> -->
+
+<!-- <template name="staffName">
+  <view>
+  <text>no1.{{firstName}}....{{lastName}}</text>
+    FirstName: , LastName: {{lastName}}
+  </view>
+</template> -->
+
+<!-- <template is="staffName" data="{{...staffA}}"></template>
+<template is="staffName" data="{{...staffB}}"></template>
+<template is="staffName" data="{{...staffC}}"></template> -->
+
+<view class="put">
+  <input type="text" placeholder="搜索"></input>
+  <!-- <van-search value="{{ value }}" placeholder="请输入搜索关键词" /> -->
+</view>
+<!-- <view class="cont"> 
+<text>影院热映</text>
+<text>查看更多</text>
+</view> -->
+
+<!-- 影院热映 -->
+<view class="Cinema">
+  <text>影院热映</text>
+  <text bindtap="bind">查看更多 > </text>
+    
+  
+</view>
+<scroll-view scroll-x="true">
+  <view class="uploadWrap" scroll-x="true">
+    <view class="upload_Item" wx:for="{{subjects}}">
+      <!-- navigator：页面跳转链接 -->
+        <image class="upload_Item_img" src="{{item.images.large}}"></image>
+        <text>{{item.title}}</text>
+        <van-rate size="9" value="{{ 5 }}"/>{{item.rating.average}}分
+    </view>
+  </view>
+</scroll-view>
+
+
+<!-- 豆瓣热门 -->
+<view class="Cinema">
+  <text>豆瓣热门</text>
+ <text bindtap="bindViewTap">查看更多 > </text>
+</view>
+<scroll-view scroll-x="true">
+  <view class="uploadWrap" scroll-x="true">
+    <view class="upload_Item" wx:for="{{subjects_top250}}">
+      <!-- navigator：页面跳转链接 -->
+      <navigator url='../index/index' hover-class="none">
+        <image class="upload_Item_img" src="{{item.images.large}}"></image>
+        <text>{{item.title}}</text>
+        <van-rate size="9" value="{{ 5 }}"/>{{item.rating.average}}分
+      </navigator>
+    </view>
+  </view>
+</scroll-view>
+
+<!-- 近期热门剧集 -->
+<view class="Cinema">
+  <text>近期热门剧集</text>
+ <text bindtap="bindViewTap">查看更多 > </text>
+</view>
+<scroll-view scroll-x="true">
+  <view class="uploadWrap" scroll-x="true">
+    <view class="upload_Item" wx:for="{{subjects_j}}">
+      <!-- navigator：页面跳转链接 -->
+      <navigator url='../index/index' hover-class="none">
+        <image class="upload_Item_img" src="{{item.images.large}}"></image>
+        <text>{{item.title}}</text>
+        <van-rate size="9" value="{{ 5 }}"/>{{item.rating.average}}分
+      </navigator>
+    </view>
+  </view>
+</scroll-view>
+

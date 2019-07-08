@@ -1,0 +1,31 @@
+<view class="top">
+  <image src="../../image/hot-top.jpg"></image>
+</view>
+<view  class="banner">
+  <view class="banner-text-left">看过0部</view>
+  <view class="banner-text-right">/ 共250部</view>
+  <view class="banner-right"> 登陆查看成就</view>
+</view>
+
+
+<view wx:for="{{shuzu}}" wx:for-index="idx" wx:for-item="item">
+  <view bindtap="bangdan" class="cont">
+    <view class="cont-top">No.{{idx+1}}</view>
+    <view class="cont-banner">
+      <image src="{{item.images.small}}"></image>
+      <view class="cont-banner-center">
+        <view class="cont-banner-txt1">{{item.title}}</view>
+        <view class="pingfen">
+          <van-rate size="9" value="{{ value }}" bind:change="onChange" />{{item.rating.average}}
+        </view>
+        <view class="jieshao">{{item.durations}}/{{item.genres}}/{{item.casts.name}}{{item.directors[0].name}}</view>
+      </view>
+      <view class="congt-banner-right">
+        <van-rate void-color="#ffd21e" count="1" size="20" value="{{ 0 }}" />看过
+      </view>
+
+    </view>
+    <view class="cont-banner-bottom">希望让人自由</view>
+  </view>
+  <view class="fengexian"></view>
+</view>

@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/demo/demo",
+    "pages/guanying/guanying",
+    "pages/details/details",
+    "pages/rpt/rpt",
+    "pages/pingfen/pingfen",
+    "pages/jianjie/jianjie",
+    "pages/xiangkan/xiangkan",
+    "pages/hot/hot",
+    "pages/hot-border/hot-border",
+    "pages/my/my",
+    "pages/more/more",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#67ba62",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/demo/demo",
+        "text": "首页",
+        "color": "#000",
+        "iconPath": "image/shouye.png",
+        "selectedIconPath": "image/shouye1.png"
+      },
+      {
+        "pagePath": "pages/hot/hot",
+        "text": "榜单",
+        "color": "#000",
+        "iconPath": "image/shipin.png",
+        "selectedIconPath": "image/shipin1.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "color": "#000",
+        "iconPath": "image/wode.png",
+        "selectedIconPath": "image/wode1.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "van-button": "dist/button/index",
+    "van-search": "dist/search/index",
+    "van-tabbar": "dist/tabbar/index",
+    "van-tabbar-item": "dist/tabbar-item/index",
+    "van-row": "dist/row/index",
+    "van-col": "dist/col/index",
+    "van-rate": "dist/rate/index",
+    "van-icon": "dist/icon/index"
+  }
+}

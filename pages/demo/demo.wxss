@@ -1,0 +1,87 @@
+/* pages/demo/demo.wxss */
+
+.put{
+  height: 80rpx;
+  background-color: #67ba62;
+  padding-top: 30rpx;
+}
+.put input{
+  height: 60rpx;
+  background-color: #fff;
+  width: 95%;
+  margin:  0 auto;
+  border-radius: 5rpx;
+  font-size: 26rpx;
+  text-align: center;
+}
+/* .cont{
+  width: 95%;
+  height: 1000rpx;
+  margin: 0 auto;
+  border: 1rpx solid red;
+}
+.cont text:nth-child(1){
+  font-size: 26rpx;
+  float: left;
+}
+.cont text:nth-child(2){
+  font-size: 26rpx;
+  display: block;
+   float: right; 
+}  */
+
+/* 影院热映 */
+.Cinema{
+  float: left;
+  width: 100%;
+  height: 80rpx;
+  /* background: #f90; */
+  margin: 28rpx auto 0;
+  font-family: "黑体";
+}
+.Cinema  text:nth-child(1){
+  margin-left: 3%;
+  font-size: 30rpx;
+  float: left;
+  margin-top: 10rpx;
+}
+.Cinema text:nth-child(2){
+  float: right;
+  color: #67ba62;
+  margin-right: 3%;
+  margin-top: 10rpx;
+  font-size: 30rpx;
+  display: block;
+}
+/* 图片滑动 */
+.uploadWrap {
+  float: left;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 390rpx;
+}
+.upload_Item {
+  float: left;
+  width: 200rpx;
+  height: 330rpx;
+  line-height: 40rpx;
+  text-align: center;
+  margin: 0 0 0 20rpx;
+  font-size: 28rpx;
+}
+.upload_Item_img {
+  float: left;
+  width: 170rpx;
+  height: 250rpx;
+  border-radius: 10rpx;
+}
+.upload_Item text {
+  display: inline-block;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  width: 170rpx;
+  font-size: 26rpx; 
+  text-align: center;
+}
